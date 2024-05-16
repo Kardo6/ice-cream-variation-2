@@ -260,7 +260,17 @@ button {
 
 .best {
     padding: 50px 150px;
+}
 
+.best__title {
+    margin-bottom: 50px;
+
+    font-size: 64px;
+
+    text-align: center;
+}
+
+.best__items {
     display: flex;
     justify-content: center;
     gap: 30px;
