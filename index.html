@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__navigation">
+                <div class="header__navigation--logo"><img src="./images/logo.png" alt=""
+                        class="header__navigation--logo-img"></div>
+                <li class="header__navigation--item"><a href="" class="header__navigation--link">О нас</a></li>
+                <li class="header__navigation--item"><a href="" class="header__navigation--link">Каталог</a></li>
+                <li class="header__navigation--item"><a href="" class="header__navigation--link">Домашняя страница</a>
+                </li>
+                <li class="header__navigation--item"><a href="" class="header__navigation--link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header__background">
+            <div class="header__background--item bg-1">
+                <div class="header__background--primary-text">Добро пожаловать</div>
+                <div class="header__background--secondary-text">ICE CREAM SHOP</div>
+                <div class="header__background--info-text">Наша команда постоянно работает над тем, чтобы ваш опыт
+                    покупок был максимально комфортным и приятным. Мы предлагаем удобные способы оплаты и быструю
+                    доставку, чтобы вы могли наслаждаться своим любимым лакомством в любое время, не выходя из дома.
+                </div>
+                <div class="header__background--buttons">
+                    <div class="header__background--button-1 btn-primary">Контакты</div>
+                    <div class="header__background--button-2 btn-secondary">Каталог</div>
+                </div>
+            </div>
+            <div class="header__background--item bg-2">
+                <div class="header__background--primary-text">Добро пожаловать</div>
+                <div class="header__background--secondary-text">ICE CREAM SHOP</div>
+                <div class="header__background--info-text">Пройдя через двери нашего уютного магазина, вы немедленно
+                    окунаетесь в атмосферу ароматов свежих фруктов, карамели и шоколада. Мы предлагаем как традиционные
+                    рецепты, так и инновационные вкусы, чтобы удовлетворить самые изысканные вкусовые пристрастия.
+                </div>
+                <div class="header__background--buttons">
+                    <div class="header__background--button-1 btn-primary">Магазин</div>
+                    <div class="header__background--button-2 btn-secondary">Каталог</div>
+                </div>
+            </div>
+            <div class="header__background--item bg-3">
+                <div class="header__background--primary-text">Добро пожаловать</div>
+                <div class="header__background--secondary-text">ICE CREAM SHOP</div>
+                <div class="header__background--info-text">Но наше мороженое - это не только о вкусе! Мы также уделяем
+                    особое внимание качеству и происхождению ингредиентов, чтобы каждый глоток приносил вам удовольствие
+                    и уверенность в его натуральности и свежести. Не упустите шанс окунуться в мороженое сказочного
+                    вкуса в нашем магазине!
+                </div>
+                <div class="header__background--buttons">
+                    <div class="header__background--button-1 btn-primary">О нас</div>
+                    <div class="header__background--button-2 btn-secondary">Каталог</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__background--slider">
+            <div class="header__background--slider-circle current-slide" data-slide="0"></div>
+            <div class="header__background--slider-circle" data-slide="1"></div>
+            <div class="header__background--slider-circle" data-slide="2"></div>
+        </div>
+    </header>
+
+    <section class="category">
+        <div class="category__title">Категория</div>
+        <div class="category__items">
+            <figure class="category__item">
+                <img src="./images/categories/category1.jpg" alt="" class="category__img">
+                <figcaption class="category__caption">Самое</figcaption>
+            </figure>
+            <figure class="category__item">
+                <img src="./images/categories/category2.jpg" alt="" class="category__img">
+                <figcaption class="category__caption">Лучшее</figcaption>
+            </figure>
+            <figure class="category__item">
+                <img src="./images/categories/category3.jpg" alt="" class="category__img">
+                <figcaption class="category__caption">Мороженое</figcaption>
+            </figure>
+            <figure class="category__item">
+                <img src="./images/categories/category4.jpg" alt="" class="category__img">
+                <figcaption class="category__caption">В городе</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="discounts">
+        <div class="discounts__title">Большие скидки!</div>
+    </section>
+
+    <section class="best">
+        <figure class="best__item">
+            <img src="./images/best/best1.jpg" alt="" class="best__item--img">
+            <figcaption class="best__item--caption">Шоколадное мороженое</figcaption>
+        </figure>
+
+        <figure class="best__item">
+            <img src="./images/best/best2.jpg" alt="" class="best__item--img">
+            <figcaption class="best__item--caption">Фисташковое мороженое</figcaption>
+        </figure>
+    </section>
+
+    <section class="yourbest">
+        <div class="yourbest__title">Узнайте свое любимое мороженое!</div>
+        <div class="yourbest__subtitle">Переходите в каталог, что-бы узнать!</div>
+        <div class="yourbest__button btn-secondary">Каталог</div>
+    </section>
+
+    <section class="arrivals">
+        <div class="arrivals__title">Новые поступления</div>
+        <div class="arrivals__items">
+            <figure class="arrivals__item">
+                <img src="./images/arrivals/arrivals1.jpg" alt="" class="arrivals__item--img">
+                <figcaption class="arrivals__caption">
+                    <span class="arrivals__caption--info">Ягодный микс</span>
+                    <span class="arrivals__caption--salary">1500 тг.</span>
+                </figcaption>
+            </figure>
+            <figure class="arrivals__item">
+                <img src="./images/arrivals/arrivals2.jpg" alt="" class="arrivals__item--img">
+                <figcaption class="arrivals__caption">
+                    <span class="arrivals__caption--info">Клубничный микс</span>
+                    <span class="arrivals__caption--salary">1250 тг.</span>
+                </figcaption>
+            </figure>
+            <figure class="arrivals__item">
+                <img src="./images/arrivals/arrivals3.jpg" alt="" class="arrivals__item--img">
+                <figcaption class="arrivals__caption">
+                    <span class="arrivals__caption--info">Банановое мороженое</span>
+                    <span class="arrivals__caption--salary">2000 тг.</span>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="backform">
+        <form action="" class="form">
+            <div class="form__name">
+                <label class="form__label" for="name">Введите ваше имя</label>
+                <input type="text" class="form__input-name" placeholder="Ваше имя" id="name">
+            </div>
+            <div class="form__email">
+                <label class="form__label for=" email">Введите ваш email</label>
+                <input type="text" class="form__input-email" placeholder="Ваш email" id="email">
+            </div>
+            <div class="form__btn">
+                <button class="form__button btn-secondary">Отправить</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__title">ICE CREAM AKTOBE</div>
+        <div class="footer__subtitle">Политика конфиденциальности</div>
+        <div class="footer__links">
+            <div class="footer__link"><img src="./images/icons/icon1.png" alt="" class="footer__link--img"></div>
+            <div class="footer__link"><img src="./images/icons/icon2.png" alt="" class="footer__link--img"></div>
+            <div class="footer__link"><img src="./images/icons/icon3.png" alt="" class="footer__link--img"></div>
+        </div>
+        <div class="footer__phone">Наш номер телефона: 8 800 333 22 33</div>
+        <div class="footer__address">ООО «ICE-CREAM AKTOBE», 123456, г.Актобе, ул. Центральная 1, офис 1</div>
+    </footer>
+</body>
+
+</html>
