@@ -80,6 +80,10 @@ button {
     padding: 150px;
 }
 
+.header__navigation--logo-img {
+    scale: 1.5;
+}
+
 .bg-1 {
     background: linear-gradient(0deg, rgba(209,209,209, .7) 0%, rgba(245,232,245, .7) 96%), url(./images/background1.jpg);
 
