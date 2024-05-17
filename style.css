@@ -81,7 +81,9 @@ button {
 }
 
 .header__navigation--logo-img {
+    width: 100px;
     scale: 1.5;
+    object-position: center;
 }
 
 .bg-1 {
